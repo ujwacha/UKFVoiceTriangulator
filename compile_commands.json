@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-I/home/light/stuff/hackthonstuff/ukf_server/kalman/include",
+      "-I/usr/include/eigen3",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-c",
+      "-o",
+      "CMakeFiles/UKF_Server.dir/src/main.cpp.o",
+      "/home/light/stuff/hackthonstuff/ukf_server/src/main.cpp"
+    ],
+    "directory": "/home/light/stuff/hackthonstuff/ukf_server/build",
+    "file": "/home/light/stuff/hackthonstuff/ukf_server/src/main.cpp",
+    "output": "/home/light/stuff/hackthonstuff/ukf_server/build/CMakeFiles/UKF_Server.dir/src/main.cpp.o"
+  }
+]
