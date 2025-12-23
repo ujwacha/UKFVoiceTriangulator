@@ -4,6 +4,8 @@
       "/usr/bin/c++",
       "-I/home/light/stuff/hackthonstuff/ukf_server/kalman/include",
       "-I/usr/include/eigen3",
+      "-I/home/light/stuff/hackthonstuff/ukf_server/evpp",
+      "-I/home/light/stuff/hackthonstuff/ukf_server/evpp/evpp",
       "-Wall",
       "-Wextra",
       "-Wpedantic",
