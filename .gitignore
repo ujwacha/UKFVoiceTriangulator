@@ -2,3 +2,5 @@
 *.txt~
 /.cache/
 /build/
+/src/PositionMeasurementModel.hpp~
+/src/SystemModel.hpp~
