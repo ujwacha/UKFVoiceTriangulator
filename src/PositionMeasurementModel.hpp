@@ -72,8 +72,11 @@ public:
         float lhs = b * (vec_i / magn);
         float rhs = a * (vec_j / magn);
 
-	measurement.del_t() = constant * (lhs - rhs);
+	// measurement.del_t() = constant * (lhs - rhs);
+	// it's either this or
+        measurement.del_t() = constant * (rhs - lhs); // for now, i think this is right
 
+        
         return measurement;        
     }
     

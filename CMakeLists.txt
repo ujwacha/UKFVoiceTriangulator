@@ -8,6 +8,13 @@ endif()
 find_package(Eigen3 REQUIRED)
 find_package(Threads REQUIRED)
 
+
+include(FetchContent)
+FetchContent_Declare(rerun_sdk URL
+    https://github.com/rerun-io/rerun/releases/latest/download/rerun_cpp_sdk.zip)
+FetchContent_MakeAvailable(rerun_sdk)
+
+
 include_directories(
   kalman/include
   /usr/include/eigen3/
@@ -27,6 +34,7 @@ target_link_libraries(${PROJECT_NAME}
   event
   event_core
   glog
+  rerun_sdk
 )
 
 # Set RPATH so it can find libevpp.so at runtime
